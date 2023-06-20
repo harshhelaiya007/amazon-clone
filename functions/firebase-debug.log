@@ -1,0 +1,550 @@
+[debug] [2023-03-05T09:15:22.593Z] ----------------------------------------------------------------------
+[debug] [2023-03-05T09:15:22.595Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yash.Joshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-05T09:15:22.596Z] CLI Version:   11.24.0
+[debug] [2023-03-05T09:15:22.596Z] Platform:      win32
+[debug] [2023-03-05T09:15:22.596Z] Node Version:  v18.13.0
+[debug] [2023-03-05T09:15:22.597Z] Time:          Sun Mar 05 2023 14:45:22 GMT+0530 (India Standard Time)
+[debug] [2023-03-05T09:15:22.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-05T09:15:22.707Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-05T09:15:22.708Z] > authorizing via signed-in user (yash.joshi@teknopoint.in)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-03-05T09:15:22.720Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-05T09:15:22.721Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-05T09:15:22.721Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-05T09:15:22.737Z] [hub] writing locator at C:\Users\YASH~1.JOS\AppData\Local\Temp\hub-clone-bcc93.json
+[debug] [2023-03-05T09:15:22.757Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-05T09:15:22.757Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-05T09:15:22.758Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-05T09:15:22.769Z] defaultcredentials: writing to file C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json
+[debug] [2023-03-05T09:15:22.793Z] Setting GAC to C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Yash.Joshi\\AppData\\Roaming\\firebase\\yash_joshi_teknopoint.in_application_default_credentials.json"}}
+[debug] [2023-03-05T09:15:22.795Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig [none]
+[debug] [2023-03-05T09:15:23.476Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig 200
+[debug] [2023-03-05T09:15:23.476Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig {"projectId":"clone-bcc93","storageBucket":"clone-bcc93.appspot.com"}
+[debug] [2023-03-05T09:15:23.502Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-bcc93/sites 
+[debug] [2023-03-05T09:15:24.674Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-bcc93/sites 200
+[debug] [2023-03-05T09:15:24.674Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-bcc93/sites {"sites":[{"name":"projects/clone-bcc93/sites/clone-bcc93","defaultUrl":"https://clone-bcc93.web.app","appId":"1:917652644440:web:7caa45f014d2dcb662602d","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-05T09:15:24.674Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/webApps/1:917652644440:web:7caa45f014d2dcb662602d/config [none]
+[debug] [2023-03-05T09:15:26.068Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/webApps/1:917652644440:web:7caa45f014d2dcb662602d/config 200
+[debug] [2023-03-05T09:15:26.068Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/webApps/1:917652644440:web:7caa45f014d2dcb662602d/config {"projectId":"clone-bcc93","appId":"1:917652644440:web:7caa45f014d2dcb662602d","storageBucket":"clone-bcc93.appspot.com","apiKey":"AIzaSyBdfLw7JEVoTW70XmaztoL-eUhAq38VGAA","authDomain":"clone-bcc93.firebaseapp.com","messagingSenderId":"917652644440","measurementId":"G-N6DK5N6T4K"}
+[debug] [2023-03-05T09:15:26.082Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93 [none]
+[debug] [2023-03-05T09:15:26.957Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93 200
+[debug] [2023-03-05T09:15:26.957Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93 {"projectId":"clone-bcc93","projectNumber":"917652644440","displayName":"amazon-clone","name":"projects/clone-bcc93","resources":{"hostingSite":"clone-bcc93"},"state":"ACTIVE","etag":"1_dca3b8ef-cd3f-4bd8-a60f-2e05184cada2"}
+[info] i  hosting[clone-bcc93]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-bcc93]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-03-05T09:15:26.989Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-05T09:15:26.990Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-05T09:15:26.990Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Yash.Joshi\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Yash.Joshi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-05T09:15:27.144Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-03-05T09:15:27.145Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\React projects\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\React projects\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-05T09:15:27.284Z] Validating nodejs source
+[debug] [2023-03-05T09:15:28.597Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-05T09:15:28.597Z] Building nodejs source
+[debug] [2023-03-05T09:15:28.598Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-05T09:15:28.602Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-05T09:15:28.607Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-05T09:15:28.908Z] Serving at port 8953
+
+[debug] [2023-03-05T09:15:29.158Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module 'stripe'
+Require stack:
+- D:\React projects\amazon-clone\functions\index.js
+- D:\React projects\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- D:\React projects\amazon-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[debug] [2023-03-05T09:15:29.161Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module 'stripe'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module 'stripe'\nRequire stack:\n- D:\\React projects\\amazon-clone\\functions\\index.js\n- D:\\React projects\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- D:\\React projects\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module 'stripe'\n                                         ^"}
+[debug] [2023-03-05T09:15:29.166Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module 'stripe'
+Require stack:
+- D:\React projects\amazon-clone\functions\index.js
+- D:\React projects\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- D:\React projects\amazon-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module 'stripe'\nRequire stack:\n- D:\\React projects\\amazon-clone\\functions\\index.js\n- D:\\React projects\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- D:\\React projects\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [05/Mar/2023:09:16:10 +0000] "GET /images/am5.png HTTP/1.1" 200 130198 "http://127.0.0.1:5000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [05/Mar/2023:09:16:10 +0000] \"GET /images/am5.png HTTP/1.1\" 200 130198 \"http://127.0.0.1:5000/login\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [05/Mar/2023:09:16:52 +0000] "GET /images/amazon-ad.jpg HTTP/1.1" 200 80260 "http://127.0.0.1:5000/checkout" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [05/Mar/2023:09:16:52 +0000] \"GET /images/amazon-ad.jpg HTTP/1.1\" 200 80260 \"http://127.0.0.1:5000/checkout\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36\""}}
+[debug] [2023-03-05T09:33:06.509Z] Received signal SIGHUP 1
+[debug] [2023-03-08T18:40:03.343Z] ----------------------------------------------------------------------
+[debug] [2023-03-08T18:40:03.345Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yash.Joshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2023-03-08T18:40:03.345Z] CLI Version:   11.24.0
+[debug] [2023-03-08T18:40:03.345Z] Platform:      win32
+[debug] [2023-03-08T18:40:03.345Z] Node Version:  v18.13.0
+[debug] [2023-03-08T18:40:03.346Z] Time:          Thu Mar 09 2023 00:10:03 GMT+0530 (India Standard Time)
+[debug] [2023-03-08T18:40:03.346Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-08T18:40:03.359Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-03-08T18:40:03.462Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-08T18:40:03.462Z] > authorizing via signed-in user (yash.joshi@teknopoint.in)
+[debug] [2023-03-08T18:40:03.463Z] [iam] checking project clone-bcc93 for permissions ["firebase.projects.get"]
+[debug] [2023-03-08T18:40:03.463Z] > refreshing access token with scopes: []
+[debug] [2023-03-08T18:40:03.464Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-08T18:40:03.464Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-08T18:40:03.972Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-08T18:40:03.973Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-08T18:40:03.982Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions [none]
+[debug] [2023-03-08T18:40:03.982Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions x-goog-quota-user=projects/clone-bcc93
+[debug] [2023-03-08T18:40:03.982Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-08T18:40:04.291Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-03-08T18:40:04.291Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-03-08T18:40:06.183Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions 200
+[debug] [2023-03-08T18:40:06.184Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-08T18:40:06.200Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-08T18:40:06.204Z] defaultcredentials: writing to file C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json
+[debug] [2023-03-08T18:40:06.207Z] DEBUG: Setting GAC to C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json
+[debug] [2023-03-08T18:40:06.208Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig [none]
+[debug] [2023-03-08T18:40:06.795Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig 200
+[debug] [2023-03-08T18:40:06.796Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig {"projectId":"clone-bcc93","storageBucket":"clone-bcc93.appspot.com"}
+[debug] [2023-03-08T18:40:06.818Z] [functions] Watching "D:\React projects\amazon-clone\functions" for Cloud Functions...
+[debug] [2023-03-08T18:40:06.837Z] Validating nodejs source
+[debug] [2023-03-08T18:40:08.133Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-08T18:40:08.133Z] Building nodejs source
+[debug] [2023-03-08T18:40:08.134Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-08T18:40:08.141Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-08T18:40:08.151Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-08T18:40:08.686Z] Serving at port 8171
+
+[debug] [2023-03-08T18:40:10.399Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-08T18:40:10.411Z] shutdown requested via /__/quitquitquit
+
+[debug] [2023-03-08T18:40:10.428Z] [functions] Loaded functions definitions from source: api.
+[debug] [2023-03-08T18:40:10.429Z] [functions[us-central1-api]] http function initialized (http://127.0.0.1:5000/clone-bcc93/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub, storage, eventarc 
+[debug] [2023-03-08T18:46:44.684Z] DEBUG: File D:\React projects\amazon-clone\functions\index.js changed, reloading triggers
+[debug] [2023-03-08T18:46:45.690Z] Validating nodejs source
+[debug] [2023-03-08T18:46:47.958Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-08T18:46:47.958Z] Building nodejs source
+[debug] [2023-03-08T18:46:47.959Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-08T18:46:47.961Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-08T18:46:47.970Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-08T18:46:48.212Z] Serving at port 8639
+
+[debug] [2023-03-08T18:46:48.500Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-08T18:46:48.506Z] shutdown requested via /__/quitquitquit
+
+[debug] [2023-03-08T18:46:48.518Z] [functions] Loaded functions definitions from source: api.
+[debug] [2023-03-08T18:47:12.282Z] DEBUG: File D:\React projects\amazon-clone\functions\index.js changed, reloading triggers
+[debug] [2023-03-08T18:47:13.293Z] Validating nodejs source
+[debug] [2023-03-08T18:47:14.736Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-08T18:47:14.736Z] Building nodejs source
+[debug] [2023-03-08T18:47:14.737Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-08T18:47:14.739Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-08T18:47:14.747Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-08T18:47:14.966Z] Serving at port 8922
+
+[debug] [2023-03-08T18:47:15.234Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: Foo is not defined
+[debug] [2023-03-08T18:47:15.238Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: Foo is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: Foo is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: Foo is not defined\n                                         ^"}
+[debug] [2023-03-08T18:47:15.243Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: Foo is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: Foo is not defined"}}
+[debug] [2023-03-08T18:47:26.139Z] DEBUG: File D:\React projects\amazon-clone\functions\index.js changed, reloading triggers
+[debug] [2023-03-08T18:47:27.140Z] Validating nodejs source
+[debug] [2023-03-08T18:47:28.641Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-08T18:47:28.641Z] Building nodejs source
+[debug] [2023-03-08T18:47:28.641Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-08T18:47:28.642Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-08T18:47:28.646Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-08T18:47:28.908Z] Serving at port 8873
+
+[debug] [2023-03-08T18:47:29.210Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: Foo is not defined
+[debug] [2023-03-08T18:47:29.211Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: Foo is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: Foo is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: Foo is not defined\n                                         ^"}
+[debug] [2023-03-08T18:47:29.214Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: Foo is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: Foo is not defined"}}
+[debug] [2023-03-10T11:32:44.416Z] ----------------------------------------------------------------------
+[debug] [2023-03-10T11:32:44.418Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yash.Joshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2023-03-10T11:32:44.418Z] CLI Version:   11.24.0
+[debug] [2023-03-10T11:32:44.418Z] Platform:      win32
+[debug] [2023-03-10T11:32:44.418Z] Node Version:  v18.13.0
+[debug] [2023-03-10T11:32:44.419Z] Time:          Fri Mar 10 2023 17:02:44 GMT+0530 (India Standard Time)
+[debug] [2023-03-10T11:32:44.419Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-10T11:32:44.423Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-03-10T11:32:44.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-10T11:32:44.516Z] > authorizing via signed-in user (yash.joshi@teknopoint.in)
+[debug] [2023-03-10T11:32:44.516Z] [iam] checking project clone-bcc93 for permissions ["firebase.projects.get"]
+[debug] [2023-03-10T11:32:44.517Z] > refreshing access token with scopes: []
+[debug] [2023-03-10T11:32:44.518Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-10T11:32:44.518Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-10T11:32:45.378Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-10T11:32:45.378Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-10T11:32:45.386Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions [none]
+[debug] [2023-03-10T11:32:45.386Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions x-goog-quota-user=projects/clone-bcc93
+[debug] [2023-03-10T11:32:45.386Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-10T11:32:45.441Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-03-10T11:32:45.442Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-03-10T11:32:46.115Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions 200
+[debug] [2023-03-10T11:32:46.115Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-bcc93:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-10T11:32:46.122Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-10T11:32:46.124Z] defaultcredentials: writing to file C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json
+[debug] [2023-03-10T11:32:46.126Z] DEBUG: Setting GAC to C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json
+[debug] [2023-03-10T11:32:46.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig [none]
+[debug] [2023-03-10T11:32:47.191Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig 200
+[debug] [2023-03-10T11:32:47.191Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig {"projectId":"clone-bcc93","storageBucket":"clone-bcc93.appspot.com"}
+[debug] [2023-03-10T11:32:47.209Z] [functions] Watching "D:\React projects\amazon-clone\functions" for Cloud Functions...
+[debug] [2023-03-10T11:32:47.212Z] Validating nodejs source
+[debug] [2023-03-10T11:32:48.681Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-10T11:32:48.681Z] Building nodejs source
+[debug] [2023-03-10T11:32:48.681Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-10T11:32:48.685Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-10T11:32:48.690Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-10T11:32:49.224Z] Serving at port 8278
+
+[debug] [2023-03-10T11:32:50.196Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-10T11:32:50.203Z] shutdown requested via /__/quitquitquit
+
+[debug] [2023-03-10T11:32:50.215Z] [functions] Loaded functions definitions from source: api.
+[debug] [2023-03-10T11:32:50.216Z] [functions[us-central1-api]] http function initialized (http://127.0.0.1:5000/clone-bcc93/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub, storage, eventarc 
+[debug] [2023-03-10T11:40:25.117Z] ----------------------------------------------------------------------
+[debug] [2023-03-10T11:40:25.119Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Yash.Joshi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-10T11:40:25.120Z] CLI Version:   11.24.0
+[debug] [2023-03-10T11:40:25.120Z] Platform:      win32
+[debug] [2023-03-10T11:40:25.120Z] Node Version:  v18.13.0
+[debug] [2023-03-10T11:40:25.121Z] Time:          Fri Mar 10 2023 17:10:25 GMT+0530 (India Standard Time)
+[debug] [2023-03-10T11:40:25.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-10T11:40:25.220Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-10T11:40:25.220Z] > authorizing via signed-in user (yash.joshi@teknopoint.in)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-03-10T11:40:25.231Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-10T11:40:25.231Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-10T11:40:25.231Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-10T11:40:25.243Z] [hub] writing locator at C:\Users\YASH~1.JOS\AppData\Local\Temp\hub-clone-bcc93.json
+[debug] [2023-03-10T11:40:25.262Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-10T11:40:25.262Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-10T11:40:25.262Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-10T11:40:25.272Z] defaultcredentials: writing to file C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json
+[debug] [2023-03-10T11:40:25.289Z] Setting GAC to C:\Users\Yash.Joshi\AppData\Roaming\firebase\yash_joshi_teknopoint.in_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Yash.Joshi\\AppData\\Roaming\\firebase\\yash_joshi_teknopoint.in_application_default_credentials.json"}}
+[debug] [2023-03-10T11:40:25.293Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig [none]
+[debug] [2023-03-10T11:40:26.127Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig 200
+[debug] [2023-03-10T11:40:26.127Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/adminSdkConfig {"projectId":"clone-bcc93","storageBucket":"clone-bcc93.appspot.com"}
+[debug] [2023-03-10T11:40:26.150Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-bcc93/sites 
+[debug] [2023-03-10T11:40:27.592Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-bcc93/sites 200
+[debug] [2023-03-10T11:40:27.593Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-bcc93/sites {"sites":[{"name":"projects/clone-bcc93/sites/clone-bcc93","defaultUrl":"https://clone-bcc93.web.app","appId":"1:917652644440:web:7caa45f014d2dcb662602d","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-10T11:40:27.593Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/webApps/1:917652644440:web:7caa45f014d2dcb662602d/config [none]
+[debug] [2023-03-10T11:40:29.362Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/webApps/1:917652644440:web:7caa45f014d2dcb662602d/config 200
+[debug] [2023-03-10T11:40:29.362Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93/webApps/1:917652644440:web:7caa45f014d2dcb662602d/config {"projectId":"clone-bcc93","appId":"1:917652644440:web:7caa45f014d2dcb662602d","storageBucket":"clone-bcc93.appspot.com","apiKey":"AIzaSyBdfLw7JEVoTW70XmaztoL-eUhAq38VGAA","authDomain":"clone-bcc93.firebaseapp.com","messagingSenderId":"917652644440","measurementId":"G-N6DK5N6T4K"}
+[debug] [2023-03-10T11:40:29.372Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93 [none]
+[debug] [2023-03-10T11:40:30.298Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93 200
+[debug] [2023-03-10T11:40:30.298Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-bcc93 {"projectId":"clone-bcc93","projectNumber":"917652644440","displayName":"amazon-clone","name":"projects/clone-bcc93","resources":{"hostingSite":"clone-bcc93"},"state":"ACTIVE","etag":"1_5df50783-4ae5-4951-8b58-22e2c68eaa17"}
+[info] i  hosting[clone-bcc93]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-bcc93]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-03-10T11:40:30.406Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-10T11:40:30.406Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-10T11:40:30.406Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Yash.Joshi\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Yash.Joshi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-10T11:40:30.597Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-03-10T11:40:30.597Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\React projects\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\React projects\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-10T11:40:30.703Z] Validating nodejs source
+[debug] [2023-03-10T11:40:31.915Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.48.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-10T11:40:31.915Z] Building nodejs source
+[debug] [2023-03-10T11:40:31.916Z] Failed to find version of module node: reached end of search path D:\React projects\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[debug] [2023-03-10T11:40:31.920Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-10T11:40:31.924Z] Found firebase-functions binary at 'D:\React projects\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-10T11:40:32.218Z] Serving at port 8962
+
+[debug] [2023-03-10T11:40:32.520Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-10T11:40:32.528Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-bcc93/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-bcc93/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:39 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:39 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:39 +0000] "GET /static/css/main.a9bff71c.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:39 +0000] \"GET /static/css/main.a9bff71c.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:39 +0000] "GET /static/js/main.84ca89d1.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:39 +0000] \"GET /static/js/main.84ca89d1.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/amazonlogo.png HTTP/1.1" 200 17985 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/amazonlogo.png HTTP/1.1\" 200 17985 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/watch.jpg HTTP/1.1" 200 19012 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/watch.jpg HTTP/1.1\" 200 19012 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/book.jfif HTTP/1.1" 200 10501 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/book.jfif HTTP/1.1\" 200 10501 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/amazonbanner.jpg HTTP/1.1" 200 164464 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/amazonbanner.jpg HTTP/1.1\" 200 164464 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/bottle.png HTTP/1.1" 200 75913 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/bottle.png HTTP/1.1\" 200 75913 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/kurti.jpg HTTP/1.1" 200 20127 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/kurti.jpg HTTP/1.1\" 200 20127 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/earphone.webp HTTP/1.1" 200 411022 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/earphone.webp HTTP/1.1\" 200 411022 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /images/tv2.webp HTTP/1.1" 200 145246 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /images/tv2.webp HTTP/1.1\" 200 145246 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:40 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:41 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:41 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:52 +0000] "GET /images/amazon-ad.jpg HTTP/1.1" 200 80260 "http://127.0.0.1:5000/checkout" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:52 +0000] \"GET /images/amazon-ad.jpg HTTP/1.1\" 200 80260 \"http://127.0.0.1:5000/checkout\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:59 +0000] "GET /static/css/main.a9bff71c.css.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:59 +0000] \"GET /static/css/main.a9bff71c.css.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:40:59 +0000] "GET /static/js/main.84ca89d1.js.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:40:59 +0000] \"GET /static/js/main.84ca89d1.js.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] "GET /checkout/payment HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] \"GET /checkout/payment HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] "GET /static/css/main.a9bff71c.css HTTP/1.1" 200 - "http://127.0.0.1:5000/checkout/payment" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] \"GET /static/css/main.a9bff71c.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/checkout/payment\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] "GET /static/css/main.a9bff71c.css.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] \"GET /static/css/main.a9bff71c.css.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] "GET /static/js/main.84ca89d1.js HTTP/1.1" 200 - "http://127.0.0.1:5000/checkout/payment" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] \"GET /static/js/main.84ca89d1.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/checkout/payment\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] "GET /images/amazonlogo.png HTTP/1.1" 200 17985 "http://127.0.0.1:5000/checkout/payment" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:52 +0000] \"GET /images/amazonlogo.png HTTP/1.1\" 200 17985 \"http://127.0.0.1:5000/checkout/payment\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:53 +0000] "GET /static/js/main.84ca89d1.js.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:53 +0000] \"GET /static/js/main.84ca89d1.js.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:45:57 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/checkout/payment" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:45:57 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/checkout/payment\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /static/css/main.a9bff71c.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /static/css/main.a9bff71c.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /static/js/main.84ca89d1.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /static/js/main.84ca89d1.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/amazonlogo.png HTTP/1.1" 200 17985 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/amazonlogo.png HTTP/1.1\" 200 17985 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/watch.jpg HTTP/1.1" 200 19012 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/watch.jpg HTTP/1.1\" 200 19012 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/bottle.png HTTP/1.1" 200 75913 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/bottle.png HTTP/1.1\" 200 75913 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/book.jfif HTTP/1.1" 200 10501 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/book.jfif HTTP/1.1\" 200 10501 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/amazonbanner.jpg HTTP/1.1" 200 164464 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/amazonbanner.jpg HTTP/1.1\" 200 164464 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/kurti.jpg HTTP/1.1" 200 20127 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/kurti.jpg HTTP/1.1\" 200 20127 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/earphone.webp HTTP/1.1" 200 411022 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/earphone.webp HTTP/1.1\" 200 411022 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] "GET /images/tv2.webp HTTP/1.1" 200 145246 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:32 +0000] \"GET /images/tv2.webp HTTP/1.1\" 200 145246 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:34 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:34 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:11:46:34 +0000] "GET /images/am5.png HTTP/1.1" 200 130198 "http://127.0.0.1:5000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:11:46:34 +0000] \"GET /images/am5.png HTTP/1.1\" 200 130198 \"http://127.0.0.1:5000/login\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:12:41:30 +0000] "GET /static/css/main.a9bff71c.css.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:12:41:30 +0000] \"GET /static/css/main.a9bff71c.css.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:12:41:31 +0000] "GET /static/js/main.84ca89d1.js.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:12:41:31 +0000] \"GET /static/js/main.84ca89d1.js.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Mar/2023:13:56:32 +0000] "GET /favicon.ico HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Mar/2023:13:56:32 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[debug] [2023-03-10T14:57:56.464Z] Received signal SIGHUP 1
